@@ -7,6 +7,7 @@
 - mui
 - tailwind/css + scss
 - husky what is?
+- 国际化 react-i18next i18next
 
 ### 构建
 

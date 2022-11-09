@@ -7,5 +7,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
-}
+  // plugins: ['react-i18n-auto'],
+};
