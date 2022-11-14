@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Button } from 'antd';
 export default class Dashboard extends Component {
   constructor(props) {
     super(props);
@@ -7,6 +7,10 @@ export default class Dashboard extends Component {
   }
 
   render() {
-    return <div className="mui-off-canvas-wrap mui-draggable"></div>;
+    return (
+      <div>
+        <Button type="primary">Index</Button>
+      </div>
+    );
   }
 }
