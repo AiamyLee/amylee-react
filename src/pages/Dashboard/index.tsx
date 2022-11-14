@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button';
+import React, { Component } from 'react';
 
-export default () => {
-  return (
-    <>
-      <Button> nihao ---</Button>
-    </>
-  );
-};
+export default class Dashboard extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return <div className="mui-off-canvas-wrap mui-draggable"></div>;
+  }
+}
