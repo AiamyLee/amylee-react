@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button } from 'antd';
 export default class Dashboard extends Component {
   constructor(props) {
     super(props);
@@ -7,10 +6,6 @@ export default class Dashboard extends Component {
   }
 
   render() {
-    return (
-      <div>
-        <Button type="primary">Index</Button>
-      </div>
-    );
+    return <div></div>;
   }
 }
