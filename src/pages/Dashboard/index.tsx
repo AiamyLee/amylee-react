@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+
 export default class Dashboard extends Component {
-  constructor(props) {
+  constructor(props: any) {
     super(props);
     this.state = {};
   }
 
   render() {
-    return <div></div>;
+    return <div>11</div>;
   }
 }
